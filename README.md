@@ -1,35 +1,53 @@
-# Blazor Server DataGrid - EditTemplate with TimePicker
+# Blazor Server DataGrid — EditTemplate with TimePicker
 
-This demo helps us to render the TimePicker control in EditForm and update the values in datasource on saving.
+A sample Blazor Server application demonstrating how to render the [Blazor TimePicker](https://www.syncfusion.com/blazor-components/blazor-timepicker) component within a [Blazor DataGrid](https://www.syncfusion.com/blazor-components/blazor-datagrid) EditTemplate for inline time editing with automatic data synchronization.
+
+## Overview
+
+This project showcases seamless integration of the Blazor TimePicker component into a DataGrid's edit template. Users can edit time values directly in the grid with a user-friendly time picker interface, and changes are automatically reflected in the underlying data source.
 
 ## Features
 
-* Fast rendering with virtualization and row/column virtualization
-* Sorting, filtering, grouping, and searching capabilities
-* Inline, batch, and dialog editing modes
-* Template columns, column resizing, reordering, and freezing
-* Excel and PDF export (requires additional Syncfusion export packages)
+- **TimePicker Edit Template** — Render inline time picker in DataGrid edit mode
+- **Auto-Sync Data** — Changes automatically update the data source on save
+- **Integrated Validation** — Built-in validation rules for required fields
+- **AutoComplete Integration** — Custom edit templates for enhanced UX
+- **Fast Performance** — Efficient rendering with Blazor DataGrid
 
 ## Prerequisites
 
-* Visual Studio 2022 or later
-* Visual Studio Code
+* [.NET SDK 10.0](https://dotnet.microsoft.com/en-us/download/dotnet/10.0) or later
+* [Visual Studio 2022](https://visualstudio.microsoft.com/vs/) or later
+* [Visual Studio Code](https://code.visualstudio.com/)
 
-## How to run the project
+## Getting Started
 
-1. Clone or download this repository to a location in your system.
-2. Open the solution file using the Visual Studio or Visual Studio code.
-3. Restore the NuGet packages by rebuilding the solution or run `dotnet restore`.
-4. Build the project to ensure there are no compilation errors.
-5. Run the project.
+### Clone the repository
 
-Optional CLI Commands:
+```bash
+git clone https://github.com/SyncfusionExamples/EJ2-DataGrid-BlazorServer-GridEdit-EditTemplate-TimePicker.git
+cd GridEditTemplateWithTimePicker
+```
 
-```powershell
+### Run with Visual Studio
+
+1. Open the solution file using Visual Studio 2022 or later.
+2. Restore the NuGet packages by rebuilding the solution.
+3. Build the project to ensure there are no compilation errors.
+4. Run the project.
+
+### Run with .NET CLI
+
+```bash
+# Restore dependencies
 dotnet restore
-dotnet build
+
+# Run the project
+dotnet run
 ```
 
 ## References
 
 **Documentation**: https://blazor.syncfusion.com/documentation/datagrid/edit-types#render-timepicker-in-edittemplate
+
+**Live Demo**: https://blazor.syncfusion.com/demos/datagrid/edit-types?theme=bootstrap5
