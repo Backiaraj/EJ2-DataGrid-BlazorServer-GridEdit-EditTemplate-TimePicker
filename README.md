@@ -14,27 +14,24 @@ This sample demonstrates how to customize editing within a Syncfusion [Blazor Da
 
 ## Prerequisites
 
-- Visual Studio 2022 or Visual Studio Code
-- .NET SDK compatible with the project's target framework
+* [.NET SDK 10.0](https://dotnet.microsoft.com/en-us/download/dotnet/10.0) or later
+* [Visual Studio 2026](https://visualstudio.microsoft.com/downloads/) or [Visual Studio Code](https://code.visualstudio.com/)
 
 ## How to Run the Project
 
-**Visual Studio 2022**
+**Visual Studio 2026**:
 
-1. Clone or download this repository to a local machine.
-2. Open the solution file: `GridEditTemplateWithTimePicker.sln`
-3. Restore all NuGet packages.
-4. Set the startup project to:   `GridEditTemplateWithTimePicker`
-5. Build the solution.
-6. Run the application using `Ctrl+F5`.
-7. Open the local URL displayed by the application after startup.
-8. Edit a grid record to view the TimePicker rendered inside the EditForm.
+* Checkout this project to a location in your disk.
+* Open the project (`GridEditTemplateWithTimePicker.csproj`) file.
+* Restore the NuGet packages.
+* Run the project.
 
-**Visual Studio Code**
+**Visual Studio Code**:
 
-1. Open the repository folder in Visual Studio Code.
-2. Open the integrated terminal.
-3. Navigate to the project directory.
+* Checkout this project to a location in your disk.
+* Open the repository folder in Visual Studio Code.
+* Open the integrated terminal.
+* Navigate to the repository root.
 
 ```bash
 cd EJ2-DataGrid-BlazorServer-GridEdit-EditTemplate-TimePicker
@@ -42,14 +39,9 @@ dotnet restore
 dotnet run
 ```
 
-4. Open the local URL displayed in the terminal after the application starts.
-5. Navigate to the sample page and edit a grid row to test the TimePicker editing behavior.
+Open the URL displayed in the terminal after the application starts.
 
-## Project Structure
-
-`Pages/` — contains the page that hosts the Syncfusion DataGrid implementation and EditTemplate configuration used to render the TimePicker editor.
-
-## Support and Feedback
+## Support and feedback
 
 - For general product questions, visit the [Syncfusion Community Forum](https://www.syncfusion.com/forums) or [Syncfusion Support](https://www.syncfusion.com/support).
 - To report an issue specific to this sample, open a GitHub issue in this repository.
