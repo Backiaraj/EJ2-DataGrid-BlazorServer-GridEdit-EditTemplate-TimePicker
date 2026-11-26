@@ -9,16 +9,16 @@
 
   <ItemGroup>
     <PackageReference Include="Syncfusion.Blazor.Calendars">
-      <Version>33.2.3</Version>
+      <Version>35.2.13</Version>
     </PackageReference>
     <PackageReference Include="Syncfusion.Blazor.DropDowns">
-      <Version>33.2.3</Version>
+      <Version>35.2.13</Version>
     </PackageReference>
     <PackageReference Include="Syncfusion.Blazor.Grid">
-      <Version>33.2.3</Version>
+      <Version>35.2.13</Version>
     </PackageReference>
     <PackageReference Include="Syncfusion.Blazor.Themes">
-      <Version>33.2.3</Version>
+      <Version>35.2.13</Version>
     </PackageReference>
   </ItemGroup>
 
