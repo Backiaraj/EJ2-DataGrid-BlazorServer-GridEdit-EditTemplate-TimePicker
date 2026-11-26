@@ -17,7 +17,7 @@ This sample demonstrates how to customize editing within a Syncfusion [Blazor Da
 * [.NET SDK 10.0](https://dotnet.microsoft.com/en-us/download/dotnet/10.0) or later
 * [Visual Studio 2026](https://visualstudio.microsoft.com/downloads/) or [Visual Studio Code](https://code.visualstudio.com/)
 
-## How to Run the Project
+## How to run the project
 
 **Visual Studio 2026**:
 
